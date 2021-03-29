@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+    margin: 125px;
+    color: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #5685fd;
+    line-height: 2;
+}
+
+.flex-container {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #5685fd;
+}
+
+.flex-item {
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px; 
+    margin: 3px;
+    line-height: 1;
+}
+
+img {
+    height: 100px;
+}
