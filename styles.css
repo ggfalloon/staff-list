@@ -1,6 +1,8 @@
 body {
     background-color: #ffffff;
-    margin: 125px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 50px;
     color: #2d2d2d;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,22 +19,19 @@ header {
 
 .flex-container {
     display: flex;
-    min-height: 20vh;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
     flex-wrap: wrap;
-    border: 2px solid #5685fd;
 }
 
 .flex-item {
     align-content: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 1px solid #5685fd;
     text-align: center;
+    width: 15%;
     padding: 5px; 
-    margin: 3px;
-    line-height: 1;
+    margin: 10px 15px 10px;
 }
 
 img {
